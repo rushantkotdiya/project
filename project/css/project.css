@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 50px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav .logo span {
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: red;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px;
+    text-align: center;
+    background: #222;
+}
+
+.projects h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.projects h1 span {
+    color: red;
+}
+
+.projects p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+    color: white;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.project-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project-item h3 {
+    color: white;
+    margin-top: 10px;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}

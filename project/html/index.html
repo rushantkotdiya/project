@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manganresto - Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">Manganresto</div>
+    
+      <div class="dropdown">
+        <button class="dropdown-button"> <i class='fas fa-bars'></i></button>
+        <div class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Are You Hungry ?</h2>
+        <h1>Don't Wait !</h1>
+        <p>Let start to order food now</p>
+        <button><a href="../html/manu.html">Check Out Menu</a></button>
+      </div>
+      <div class="hero-image">
+        <div class="circle-bg"></div>
+        <img src="../img/food-4k-spdnpz7bhmx4kv2r.jpg" alt="Delicious Food" />
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <h1>Our Menu</h1>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="../img/Breakfast.jpg" alt="Breakfast" />
+          <div class="menu-item-content">
+            <h3>Breakfast</h3>
+            <p>Start your day with our tasty and healthy breakfast options.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="../img/Appetizers.jpg" alt="Appetizer" />
+          <div class="menu-item-content">
+            <h3>Appetizers</h3>
+            <p>Perfect bites to get you ready for the main course.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="../img/Main Course.webp" alt="Main Course" />
+          <div class="menu-item-content">
+            <h3>Main Course</h3>
+            <p>Delicious and hearty meals prepared by top chefs.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="../img/Desserts.jpg" alt="Dessert" />
+          <div class="menu-item-content">
+            <h3>Desserts</h3>
+            <p>Sweet treats to finish your meal with a smile.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-text">
+        <h1>About Us</h1>
+        <p>
+          Welcome to Manganresto, where taste meets tradition. Our mission is to
+          bring delightful dishes to your plate using the freshest ingredients
+          and authentic recipes. With a passion for flavor and a love for food,
+          our chefs work tirelessly to craft meals that not only satisfy your
+          hunger but also warm your heart.
+        </p>
+        <br />
+        <p>
+          Whether you're looking for a casual lunch or a memorable dinner
+          experience, Manganresto is the place to be. Join us and be a part of
+          our culinary journey.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="../img/Restaurant Interior.jpg" alt="Restaurant Interior" />
+      </div>
+    </section>
+
+    <section class="location-section" id="location">
+      <h1>Our Location</h1>
+      <p class="location-info">
+        Visit us at our main branch. We’re located in the heart of the city and
+        easy to find.
+      </p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086467304352!2d-122.41941518468152!3d37.77492977975954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c9f6bb6b1%3A0xc59d9dc0b2203a68!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1616627990645!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h1>Contact Us</h1>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p>Email: support@manganresto.com</p>
+        <p>Phone: +1 (234) 567-890</p>
+        <p>Address: 123 Flavor Street, Foodville</p>
+      </div>
+    </section>
+    <!-- Font Awesome CDN (for icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section brand">
+          <h2>Manganresto</h2>
+          <p>
+            Where taste meets perfection. Satisfy your cravings with our
+            signature dishes.
+          </p>
+        </div>
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Flavor St, Foodie City
+          </p>
+          <p><i class="fas fa-phone-alt"></i> (123) 456-7890</p>
+          <p><i class="fas fa-envelope"></i> contact@manganresto.com</p>
+        </div>
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Manganresto. All rights reserved.</p>
+      </div>
+    </footer>
+
+    
+  </body>
+</html>
